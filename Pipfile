@@ -21,6 +21,11 @@ sentinelsat = "==0.14"
 six = "==1.16.0"
 tqdm = "==4.60.0"
 urllib3 = "==1.26.4"
+argparse = "*"
+shapely = "*"
+jupyterlab = "*"
+folium = "*"
+geopandas = "*"
 
 [dev-packages]
 
