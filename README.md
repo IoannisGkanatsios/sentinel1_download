@@ -1,6 +1,6 @@
 # Download Sentinel-1 scenes
 
-
+```
 usage: download_sentinel1.py [-h] [-o OUTDIR] [-aoi FOOTPRINT] [-s START_DATE]
                              [-e END_DATE] [-t PRODUCT_TYPE]
                              [-p PASS_DIRECTION] [-d] [--online]
@@ -24,3 +24,4 @@ optional arguments:
                         Specify orbit (valid orbits: ascending or descending)
   -d, --download        Download the prodcuts found
   --online              check if requested product is online or offline
+```
