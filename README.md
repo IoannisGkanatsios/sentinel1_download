@@ -1,5 +1,16 @@
 # Download Sentinel-1 scenes
 
+**Credentials**
+Create a `.env` file and add the credentials required to log into [sentinel-hub](https://scihub.copernicus.eu/dhus/#/home). Add the following:
+
+```
+user="your username"
+
+password="your password"
+```
+The `download_sentinel1.py` script looks into `.env` file for the `username` and `password`
+
+
 ```
 usage: download_sentinel1.py [-h] [-o OUTDIR] [-aoi FOOTPRINT] [-s START_DATE]
                              [-e END_DATE] [-t PRODUCT_TYPE]
