@@ -40,4 +40,6 @@ optional arguments:
   --online              check if requested product is online or offline
 ```
 
+**Visualization**
+
 Using the script within jupyter folder, we can visualize the SAR scenes over our AOI using a basemap
